@@ -12,11 +12,10 @@
     "web-vitals": "^2.1.4"
   },
   "scripts": {
-    "start": "react-scripts start",
+    "start": "concurrently \"react-scripts start\" \"json-server --watch db.json --port 5001\"",
     "build": "react-scripts build",
     "test": "jest",
-    "eject": "react-scripts eject",
-    "json-server": "json-server --watch db.json --port 5001"
+    "eject": "react-scripts eject"
   },
   "eslintConfig": {
     "extends": [
@@ -45,6 +44,7 @@
     "axios-mock-adapter": "^1.22.0",
     "babel-jest": "^27.5.1",
     "identity-obj-proxy": "^3.0.0",
-    "jest": "^27.5.1"
+    "jest": "^27.5.1",
+    "concurrently": "^7.2.2"
   }
 }
