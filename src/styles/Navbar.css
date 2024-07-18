@@ -1,0 +1,43 @@
+/* src/styles/Navbar.css */
+
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@700&display=swap");
+
+.navbar {
+  background-color: #aedade;
+  padding: 15px 30px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+.nav-links {
+  list-style: none;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin: 0;
+  padding: 0;
+}
+
+.nav-item {
+  margin: 0 15px;
+}
+
+.nav-link {
+  text-decoration: none;
+  color: white;
+  font-family: "Poppins", sans-serif;
+  transition: color 0.3s;
+}
+
+.nav-link:hover {
+  color: #ffcc00;
+}
+
+.logo {
+  font-size: 1.3em;
+  font-weight: 600;
+  color: #1988e9;
+}
+
+.logo:hover {
+  color: white;
+}

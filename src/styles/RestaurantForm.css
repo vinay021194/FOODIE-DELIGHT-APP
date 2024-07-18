@@ -1,0 +1,75 @@
+.form-container {
+  max-width: 600px;
+  margin: 0 auto;
+  padding: 20px;
+  border: 1px solid #ccc;
+  border-radius: 8px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  background-color: #fff;
+  margin-top: 10px;
+}
+
+.restaurant-form {
+  display: flex;
+  flex-direction: column;
+}
+
+.restaurant-form div {
+  margin-bottom: 20px;
+}
+
+.restaurant-form label {
+  display: block;
+  margin-bottom: 5px;
+  font-weight: bold;
+}
+
+.restaurant-form input,
+.restaurant-form textarea {
+  width: 100%;
+  padding: 10px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  box-sizing: border-box;
+}
+
+.restaurant-form input[type="number"] {
+  -moz-appearance: textfield;
+}
+
+.restaurant-form input[type="number"]::-webkit-outer-spin-button,
+.restaurant-form input[type="number"]::-webkit-inner-spin-button {
+  -webkit-appearance: none;
+  margin: 0;
+}
+
+.restaurant-form button {
+  padding: 10px 15px;
+  background-color: white;
+  color: #28a745;
+  border: 1px solid;
+  border-radius: 4px;
+  cursor: pointer;
+}
+
+.restaurant-form button:hover {
+  background-color: #218838;
+  color: white;
+}
+
+.error-message {
+  color: red;
+  font-size: 0.875em;
+  margin-top: 5px;
+  position: absolute;
+}
+
+.restaurant-form div {
+  position: relative;
+}
+
+@media (max-width: 600px) {
+  .form-container {
+    padding: 10px;
+  }
+}

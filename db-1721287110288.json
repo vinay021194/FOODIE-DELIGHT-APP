@@ -1,0 +1,20 @@
+{
+  "restaurants": [
+    {
+      "id": 1,
+      "name": "Pizza Place",
+      "description": "Best pizza in town",
+      "location": "123 Pizza Street",
+      "rating": 4,
+      "cuisine": "Italian"
+    },
+    {
+      "id": 2,
+      "name": "Sushi Spot",
+      "description": "Fresh sushi daily",
+      "location": "456 Sushi Avenue",
+      "rating": 5,
+      "cuisine": "Japanese"
+    }
+  ]
+}
